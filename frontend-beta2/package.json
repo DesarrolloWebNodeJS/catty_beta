@@ -1,0 +1,19 @@
+{
+  "name": "frontend-beta2",
+  "version": "1.0.0",
+  "description": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DesarrolloWebNodeJS/catty_beta.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DesarrolloWebNodeJS/catty_beta/issues"
+  },
+  "homepage": "https://github.com/DesarrolloWebNodeJS/catty_beta#readme"
+}
