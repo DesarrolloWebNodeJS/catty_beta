@@ -459,7 +459,7 @@ blockquote:before {
 
 .breadcrumbs_block {
     padding: 81px 0;
-    background-image: url("./assets/img/clean_code_bg.jpg");
+    background-image: url("assets/img/clean_code_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -749,7 +749,7 @@ header {
 
 .cleancode_block {
     padding: 96px 0 78px;
-    background-image: url("./assets/img/clean_code_bg.jpg");
+    background-image: url("assets/img/clean_code_bg.jpg");
     background-size: cover;
     background-position: 0 0;
     background-attachment: fixed !important;
@@ -859,11 +859,11 @@ header {
 }
 
 .cleancode_block .nav-tabs li a.i5 i {
-    background-image: url("./assets/img/i5.png");
+    background-image: url("assets/img/i5.png");
 }
 
 .cleancode_block .nav-tabs li a.i6 i {
-    background-image: url("./assets/img/i6.png");
+    background-image: url("assets/img/i6.png");
 }
 
 .nav-tabs li a:hover,
@@ -1066,7 +1066,7 @@ header {
     height: 36px;
     margin-left: -30px;
     opacity: 0;
-    background-image: url("./assets/img/zoom.png");
+    background-image: url("assets/img/zoom.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100% auto;
@@ -1081,7 +1081,7 @@ header {
 }
 
 .work_item a.zoom:hover {
-    background-image: url("./assets/img/zoom_h.png");
+    background-image: url("assets/img/zoom_h.png");
 }
 
 
@@ -1205,7 +1205,7 @@ ul.project_info li span {
 
 #team {
     padding: 75px 0 100px;
-    background-image: url("./assets/img/team_bg.jpg");
+    background-image: url("assets/img/team_bg.jpg");
     background-size: cover;
     background-attachment: fixed !important;
 }
@@ -1398,7 +1398,7 @@ ul.project_info li span {
     height: 36px;
     margin: 0 0 -18px -30px;
     opacity: 0;
-    background-image: url("./assets/img/zoom.png");
+    background-image: url("assets/img/zoom.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100% auto;
@@ -1413,7 +1413,7 @@ ul.project_info li span {
 }
 
 .post_item_img a.link:hover {
-    background-image: url("./assets/img/zoom_h.png");
+    background-image: url("assets/img/zoom_h.png");
 }
 
 
@@ -1518,7 +1518,7 @@ ul.project_info li span {
 /*-----------------------------------------------------------------------------------*/
 
 #contacts {
-    position: relative;
+    position: absolute;
     z-index: 0;
     padding: 0;
     background: transparent;
@@ -1526,7 +1526,7 @@ ul.project_info li span {
 
 footer {
     overflow: hidden;
-    position: fixed;
+    position: relative;
     z-index: 1;
     bottom: 0;
     left: 50%;
@@ -1621,9 +1621,12 @@ footer h4 {
 /*	SOCIAL BUTTONS
 /*-----------------------------------------------------------------------------------*/
 
+.socila {
+    height: 2rem;
+}
+
 .social li {
     display: inline-block;
-    margin: 0 7px 10px 0;
 }
 
 .social li a {
@@ -1785,7 +1788,7 @@ input[type="color"]:focus {
     height: 36px;
     margin: 0 0 -30px -30px;
     opacity: 0;
-    background-image: url("./assets/img/zoom.png");
+    background-image: url("assets/img/zoom.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100% auto;
@@ -1800,7 +1803,7 @@ input[type="color"]:focus {
 }
 
 .blog_post a.zoom:hover {
-    background-image: url("./assets/img/zoom_h.png");
+    background-image: url("assets/img/zoom_h.png");
 }
 
 .blog_post_descr hr {
@@ -2539,7 +2542,7 @@ input[type="color"]:focus {
     }
     /* __________ Footer __________ */
     footer {
-        position: static;
+        position: relative;
         left: auto;
         bottom: auto;
         transform: none;
