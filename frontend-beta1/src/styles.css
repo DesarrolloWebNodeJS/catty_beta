@@ -1729,7 +1729,7 @@ input[type="color"]:focus {
 }
 
 .contact_btn.active,
-.contact_btn:hover {
+.contact_btn:hover:not([disabled]) {
     background: none;
     color: #fff;
     border-color: #ccc;

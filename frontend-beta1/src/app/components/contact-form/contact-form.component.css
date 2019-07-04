@@ -1,0 +1,10 @@
+.alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+    background-color: #f5c6cb;
+    margin-bottom: 5px;
+}
+
+.contanier-error-message {
+    padding: 3px;
+}
