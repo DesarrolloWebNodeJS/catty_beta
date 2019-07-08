@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortafolioPostComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
   }
+
+
 
 }
